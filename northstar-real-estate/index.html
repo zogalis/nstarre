@@ -86,86 +86,94 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- main content -->
     <div id="homepage"> 
       <!-- Introduction -->
+      <!-- Since we're working off of a template, custom styles will sit here so we know what we're doing for now. -->
+      <style>
+		  fieldset {
+			  text-align: center;
+		  }
+		  input[type=text] {
+			  padding: 5px;
+			  margin-bottom: 5px;
+			  font-size: 18px;
+		  }
+		  select {
+			  font-size: 16px;
+			  padding: 5px;
+			  margin-bottom: 5px;
+		  }
+		  label {
+			  font-size: 18px;
+		  }
+		  button {
+			  border-radius: 10px;
+			  background: #1E88E5;
+			  color: white;
+			  padding: 20px 35px;
+			  box-shadow: none;
+			  border: none;
+			  transition: width 0.2s;
+		  }
+		  button:hover {
+			  background: #2196F3;
+			  cursor: pointer;
+		  }
+      </style>
 	  <section id="intro" class="clear"><center><font color="#7D0C0C" size="10">Search for your dream home!</font></center><br />
-<div style="" class="col-md-offset-2 col-md-8 ihf-container quick-search-container" id="ihf-main-container">
+        <div class="col-md-offset-2 col-md-8 ihf-container quick-search-container" id="ihf-main-container">
                <div class="ihf-widget mb-25">        
-				<form id="searchProfile" style="padding-top: 25px;" class="form-inline ihf-quick-search-form" action="http://www.idxhome.com/site/listing/results/89738" method="GET" data-ihf-quick-search-bound="true"> 
+			            <form id="searchProfile" style="padding-top: 25px;" class="form-inline ihf-quick-search-form" action="http://www.idxhome.com/site/listing/results/89738" method="GET"> 
                       <fieldset> 
                          <div class="row mb-10"> 
                             <div class="col-xs-8"> 
                                <div style="position: relative;"> 
                                   <label for="ihf-area-input" class="field-label"> <strong>Location </strong></label> 
                                    <!--span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span-->
-                                   <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input id="ihf-area-input" class="ihf-area-input form-control ui-autocomplete-input" name="" placeholder="Enter City or Zip" autocorrect="off" required="required" autocomplete="off" type="text">
+                                   <span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input id="ihf-area-input" class="ihf-area-input form-control ui-autocomplete-input" name="zip" placeholder="Enter City or Zip" autocorrect="off" required="required" autocomplete="off" type="text">
                                    <input class="ihf-area-input-hidden" name="" value="02762" type="hidden"> 
                                 </div> 
                              </div> 
-                             <div class="col-xs-3 col-xs-offset-1">
-                           
-                                <button id="ihf-quicksearch-submit2" class="btn btn-default btn-form-submit ihf-main-search-form-submit" type="submit">
-                                   <i class="fa fa-search"></i>
-                                </button> 
-                             </div>
                           </div> 
                           <input name="propertyType" value="SFR,CND" type="hidden"> 
                           <div class="row mb-10"> 
                              <div class="col-xs-4"> 
                                <label for="ihf-minprice-homes" class="field-label"> Min. Price </label> 
-                               <div style="position: relative;"> 
-                                  <div class="ihf-label-overlay-money"> $ </div> 
-                                  <input id="ihf-minprice-homes" name="minListPrice" placeholder="No min" class="form-control ihf-search-form-input" value="" type="text"> 
-                               </div> 
+                            	<input id="ihf-minprice-homes" name="minListPrice" placeholder="No min" class="form-control ihf-search-form-input" value="" type="text"> 
                             </div> 
                             <div class="col-xs-4"> 
-                               <label for="ihf-maxprice-homes" class="field-label"> Max. Price </label> 
-                               <div style="position: relative;"> 
-                                  <div class="ihf-label-overlay-money"> $ </div> 
-                                  <input id="ihf-maxprice-homes" name="maxListPrice" placeholder="No max" class="form-control ihf-search-form-input" value="" type="text"> 
-                               </div> 
+                               <label for="ihf-maxprice-homes" class="field-label"> Max. Price </label>
+                                <input id="ihf-maxprice-homes" name="maxListPrice" placeholder="No max" class="form-control ihf-search-form-input" value="" type="text"> 
                             </div> 
                         
                             <div class="col-xs-2"> 
                                <label for="ihf-select-bedrooms-homes" class="field-label"> Beds </label> 
-                                  <select id="ihf-select-bedrooms-homes" name="bedrooms" class="form-control ihf-chosen-select-width" style="display: none;">
+                                  <select id="ihf-select-bedrooms-homes" name="bedrooms" class="form-control ihf-chosen-select-width">
                                   <option value="0">Any</option>
                                   <option value="1">1+</option>
                                   <option value="2">2+</option>
                                   <option value="3">3+</option>
                                   <option value="4">4+</option>
                                   <option value="5">5+</option>
-                                  </select><div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 100%;" title="" id="ihf_select_bedrooms_homes_chosen"><a class="chosen-single" tabindex="-1"><span>Any</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input autocomplete="off" readonly="" type="text"></div><ul class="chosen-results"></ul></div></div>
-                                 <div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 100%;" title="" id="ihf_select_bedrooms_homes_chosen">
-                                 
-                                    <div class="chosen-drop">
-                                       <div class="chosen-search">
-                                          <input autocomplete="off" readonly="" type="text">
-                                       </div>
-                                       <ul class="chosen-results"></ul>
-                                    </div>
-                                 </div> 
-                             </div> 
+                                  </select>
+                             </div>
                              <div class="col-xs-2"> <span></span> 
                                 <label for="ihf-select-baths-homes" class="field-label"> Baths </label> 
-                                <select id="ihf-select-baths-homes" name="bathCount" class="form-control ihf-chosen-select-width" style="display: none;">
+                                <select id="ihf-select-baths-homes" name="bathCount" class="form-control ihf-chosen-select-width">
                                 <option value="0">Any</option>
                                 <option value="1">1+</option>
                                 <option value="2">2+</option>
                                 <option value="3">3+</option>
                                 <option value="4">4+</option>
                                 <option value="5">5+</option>
-                                </select><div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 100%;" title="" id="ihf_select_baths_homes_chosen"><a class="chosen-single" tabindex="-1"><span>Any</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input autocomplete="off" readonly="" type="text"></div><ul class="chosen-results"></ul></div></div>
-                                <div class="chosen-container chosen-container-single chosen-container-single-nosearch" style="width: 100%;" title="" id="ihf_select_baths_homes_chosen">
-                            
-                                   <div class="chosen-drop">
-                                         <div class="chosen-search">
-                                            <input autocomplete="off" readonly="" type="text">
-                                         </div>
-                                         <ul class="chosen-results"></ul>
-                                   </div>
-                                 </div> 
+                                </select>
                              </div> 
                            </div> 
-                          
+						   
+                             <div class="col-xs-3 col-xs-offset-1">
+                           
+                                <button id="ihf-quicksearch-submit2" class="btn btn-default btn-form-submit ihf-main-search-form-submit" type="submit">
+                                	<i class="fa fa-search"></i> Search
+                                </button> 
+                             </div>
                         </fieldset> 
                      </form>
                   </div>
