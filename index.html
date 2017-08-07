@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<!-- nana i chganed a file
+<!--  
 Template Name: RS-1 Clean
 Author: <a href="http://www.os-templates.com/">OS Templates</a>
 Author URI: http://www.os-templates.com/
@@ -14,6 +14,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="NorthStar, Real Estate, Barbara O'Hara, North Attleboro, Realtor">
 <meta name="description" content="NorthStar Real Estate">
+ 
 <link rel="stylesheet" href="styles/layout.css" type="text/css" media="all">
 <link rel="stylesheet" href="styles/mediaqueries.css" type="text/css" media="all">
 <script src="scripts/jquery.min.js"></script>
@@ -44,11 +45,11 @@ Licence URI: http://www.os-templates.com/template-terms
     <nav id="topnav">
       <ul class="topnav clear"> 
        <font size="2"> <li class="active" ><a href="index.html">Homepage</a></li>
-        <li><a href="http://rehomepro.idxhome.com/homesearch/89738">Search Properties</a></li>
+        <li><a href="searchproperties.html">Search Properties</a></li>
         <li><a href="agents.html">Meet our Agents</a></li>
-		<li><a href="partner.html">Featured Community Partner</a></li>
+		<li><a href="partners.html">Featured Community Partner</a></li>
 		<li><a href="gallery.html">Gallery</a></li>
-        <li  class="last"><a href="http://rehomepro.idxhome.com/contact/89738">Contact Us</a></li>
+        <li  class="last"><a href="contact.html">Contact Us</a></li>
          </font>
       </ul>
 	  
@@ -131,7 +132,22 @@ Licence URI: http://www.os-templates.com/template-terms
 			  cursor: pointer;
 		  }
       </style>
-	  <section id="intro" class="clear"><center><font color="#7D0C0C" size="6">Search for your dream home!</font></center><br />
+	   <section id="services" class="last clear">
+        <article>
+         <font color="#B00620" size="6">Introducing NorthStar</font>
+        <br /><br />  <font size="3">NorthStar Real Estate was founded in 2016 with a passion and commitment to offer a local, client driven success story. Comprised of experienced agents from different real estate backgrounds, we feel strongly about delivering a quality experience throughout the entire real estate transaction.
+
+Many of our agents are long time residents of the surrounding communities and offer first hand knowledge of Massachusetts. We maintain a strong network of contacts to assist in all areas of the sales process as well as throughout homeownership in the years beyond the closing. We are able to leverage that experience, and formulate sound advice for our clients as we strive to provide a seamless process, guiding you through a buying or selling transaction.
+
+Contact a North Star Real Estate Agent..let us lead you home.</font>
+           
+        </article>
+        
+      </section>
+	  <br />
+	   <hr noshade="true" color="#E8E8E8">
+	  <br />
+	  <section id="intro" class="clear"> <font color="#B00620" size="6">Search for your dream home!</font> <br />
         <div class="col-md-offset-2 col-md-8 ihf-container quick-search-container" id="ihf-main-container">
                <div class="ihf-widget mb-25">        
 			            <form id="searchProfile" style="padding-top: 25px;" class="form-inline ihf-quick-search-form" action="http://www.idxhome.com/site/listing/results/89738" method="GET"> 
@@ -190,15 +206,21 @@ Licence URI: http://www.os-templates.com/template-terms
                         </fieldset> 
                      </form>
                   </div>
-		 <br /><br /><br /><br /><br />
-		 <hr noshade="true" color="gray">
+		 <br /> 
+		  
       </section>
-      <section id="intro" class="clear"><center><font color="#7D0C0C" size="6">Our Featured Listings</font></center><br />
-        <article class="one_quarter first">
-          <h2>167 North St Norfolk, MA </h2>
-          <a href="#"><img src="images/northstreet.jpeg" alt=""></a>
+	  <hr noshade="true" color="#E8E8E8">
+	  
+	  <br />
+      <section id="intro" class="clear"> <font color="#B00620" size="6">Our Featured Listings</font> <br />
+       <iframe src="http://nstarre.idxhome.com/featured/89738" width="1100" height="400" frameborder="0" allowtransparency="true"> 
+		</iframe>
+		
+		<article class="one_quarter first">
+          <h2> </h2>
+          <a href="#"> </a>
           <p> </p>
-          <footer class="more"><a href="#">Read More &raquo;</a></footer>
+          <footer class="more"> </footer>
         </article>
         <article class="one_quarter">
           <h2> </h2>
@@ -222,22 +244,7 @@ Licence URI: http://www.os-templates.com/template-terms
       <!-- / Introduction --> 
       <!-- ########################################################################################## --> 
       <!-- Services -->
-      <section id="services" class="last clear">
-        <article class="one_half">
-         <font color="#7D0C0C" size="5">Introducing NorthStar</font>
-          <p>NorthStar Real Estate was founded in 2016 with a passion and commitment to offer a local, client driven success story. Comprised of experienced agents from different real estate backgrounds, we feel strongly about delivering a quality experience throughout the entire real estate transaction.
-
-Many of our agents are long time residents of the surrounding communities and offer first hand knowledge of Massachusetts. We maintain a strong network of contacts to assist in all areas of the sales process as well as throughout homeownership in the years beyond the closing. We are able to leverage that experience, and formulate sound advice for our clients as we strive to provide a seamless process, guiding you through a buying or selling transaction.
-
-Contact a North Star Real Estate Agent..let us lead you home.</p>
-           
-        </article>
-        <article class="one_half last">
-        <font color="#7D0C0C" size="5"><a href="agents.html">Meet our Agents</font></a>
-         <center> <p><img class="imgl" src="images/sold.jpeg" align="right" ></center> <br /><br />  Check out our professional team of Real Estate Brokers and Agents! </p>
-          <footer class="more"> </footer>
-        </article>
-      </section>
+     
       <!-- / Services --> 
     </div>
     <!-- ################################################################################################ -->
@@ -248,20 +255,25 @@ Contact a North Star Real Estate Agent..let us lead you home.</p>
 <div class="wrapper row4">
   <div id="footer"> 
     <!-- ################################################################################################ -->
-    
-    <section class="one_half">
+<section class="one_third">   
+    <h2 class="title"><a href="agents.html">Meet our Agents!</a></h2>
+         
+         <center>  <a href="agents.html"><img src="images/teamimage.jpg"> </a>
+               
+        </section>
+    <section class="one_third">
       <h2 class="title">Quick Links</h2>
       <nav>
         <ul>
-          <li><a href="http://rehomepro.idxhome.com/homesearch/89738">Search for a Home</a></li>
-          <li><a href="http://rehomepro.idxhome.com/mortcalc/89738">Mortgage Calculator</a></li>
+          <li><a href="searchproperties.html">Search for a Home</a></li>
+          <li><a href="calculator.html">Mortgage Calculator</a></li>
           <li><a href="#">Helpful Information for Buyers</a></li>
           <li><a href="#">Helpful Information for Sellers</a></li>
           <li class="last"><a href="#">A guide to North Attleboro</a></li>
         </ul>
       </nav>
-    </section>
-    <section class="one_half last">
+    </section> 
+    <section class="one_third">
       <h2 class="title">Our Facebook Feed</h2>
      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNorthStar-Real-Estate-168253820249510%2F&tabs=timeline&width=700&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="330" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 	  </section>

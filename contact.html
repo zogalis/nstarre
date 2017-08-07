@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<!--
+<!--  
 Template Name: RS-1 Clean
 Author: <a href="http://www.os-templates.com/">OS Templates</a>
 Author URI: http://www.os-templates.com/
@@ -11,32 +10,49 @@ Licence URI: http://www.os-templates.com/template-terms
 <title>NorthStar Real Estate</title>
 <meta charset="iso-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="NorthStar, Real Estate, Barbara O'Hara, North Attleboro, Realtor">
+<meta name="description" content="NorthStar Real Estate">
+ 
 <link rel="stylesheet" href="styles/layout.css" type="text/css" media="all">
 <link rel="stylesheet" href="styles/mediaqueries.css" type="text/css" media="all">
 <script src="scripts/jquery.min.js"></script>
 <script src="scripts/jquery-defaultvalue.js"></script>
 <script src="scripts/jquery-mobilemenu.min.js"></script>
+<!-- slider -->
+<link rel="stylesheet" href="scripts/flexslider/flexslider.css" type="text/css" media="all">
+<script src="scripts/flexslider/jquery-flexslider.min.js"></script>
+<!-- / slider -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="wrapper row1">
   <header id="header">
     <div id="hgroup">
-     <h1><img src="nstarlogo.png" align="left"> <br /><a href="index.html">NorthStar Real Estate</a></h1> 
+     <h1><img src="images/nstarlogo.png" align="left"> <br /><a href="index.html">NorthStar Real Estate</a></h1>
       <h2>Let us lead you home</h2>
     </div>
     <!-- ################################################################################################ -->
     <nav id="topnav">
-<ul class="topnav clear">  
-       <font size="2"> <li><a href="index.html">Homepage</a></li>
+      <ul class="topnav clear"> 
+       <font size="2"> <li ><a href="index.html">Homepage</a></li>
         <li><a href="searchproperties.html">Search Properties</a></li>
-        <li  class="active" ><a href="agents.html">Meet our Agents</a></li>
-		<li><a href="partners.html">Featured Community Partner</a></li>
+        <li><a href="agents.html">Meet our Agents</a></li>
+		<li ><a href="partners.html">Featured Community Partner</a></li>
 		<li><a href="gallery.html">Gallery</a></li>
-        <li  class="last"><a href="contact.html">Contact Us</a></li>
-         </font> 
+        <li  class="active" ><a href="contact.html">Contact Us</a></li>
+         </font>
       </ul>
-	  </nav>
-	 <br /><br /><br /> &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; 93 Commonwealth Avenue - Suite 4, North Attleboro, MA  02763  &nbsp;&nbsp;&nbsp;&nbsp; (508)316-0781  
+	  
+  </nav>
+  <br /><br /><br /> &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; 93 Commonwealth Avenue - Suite 4, North Attleboro, MA  02763  &nbsp;&nbsp;&nbsp;&nbsp; (508)316-0781  
     <div class="clear"></div>
   </header>
 </div>
@@ -46,39 +62,12 @@ Licence URI: http://www.os-templates.com/template-terms
   <div id="container"> 
     <!-- ################################################################################################ --> 
     <!-- content body -->
-    <section id="portfolio" class="clear">
-      <ul>
-        <li>
-          <article>
-            <header> <font color="#7D0C0C" size="6">Meet our Team!</font>    <br />Click on a team member to read more!</header>
-            <figure>
-              <ul class="clear">
-                <li><img src="images/barb.png" alt=""> <center><b><font size="2"><a href="b.html">Barbara O'Hara, Owner-Broker</a></font></b></center></li>
-                <li><img src="images/sandra.png" alt=""> <center><b><font size="2"><a href="s.html">Sandra Spencer, Owner-Agent</a></font></b></center> </li>
-				<li ><img src="images/cara.png" alt=""> <center><b><font size="2"><a href="c.html">Cara Rogers, Agent</a></font></b></center></li>
-                
-              </ul>
-               
-            </figure>
-            
-          </article>
-        </li>
-        <li>
-          <article>
-            
-            <figure>
-              <ul class="clear">
-			  <li><img src="images/dee.png" alt=""><br /><center><b><a href="d.html"><font size="2">Danielle Schmitz, Realtor</font></a></b></center></li>
-                 <li><img src="images/kim.jpg"  alt=""><br /><center><b><a href="k.html"><font size="2">Kim Zogalis, Realtor</font></a></b></center></li>
-                
-				<li><img src="images/lynne.jpg" alt=""> <center><b><a href="l.html"><font size="2">Lynne Calderone, Agent</font></b></center></li>
-                
-              </ul>
-                         </figure>
-            <footer></footer>
-          </article>
-        </li>
-      </ul>
+	<section id="services" class="last clear">
+        <article>
+         <font color="#B00620" size="7">Let us Lead You Home! </font><br /><br /><font size="5">Contact Us for all your Real Estate Needs: </font>
+        <br /><br />   
+		 <iframe src="http://nstarre.idxhome.com/contact/89738" width="1100" height="400" frameborder="0" allowtransparency="true"> 
+		</iframe>
     </section>
     <!-- ####################################################################################################### --> 
     <!-- ####################################################################################################### -->
@@ -92,8 +81,10 @@ Licence URI: http://www.os-templates.com/template-terms
 <div class="wrapper row4">
   <div id="footer"> 
     <!-- ################################################################################################ -->
-    
-  <section class="one_third">   
+   <div class="wrapper row4">
+   <div id="footer"> 
+    <!-- ################################################################################################ -->
+<section class="one_third">   
     <h2 class="title"><a href="agents.html">Meet our Agents!</a></h2>
          
          <center>  <a href="agents.html"><img src="images/teamimage.jpg"> </a>
@@ -115,6 +106,9 @@ Licence URI: http://www.os-templates.com/template-terms
       <h2 class="title">Our Facebook Feed</h2>
      <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FNorthStar-Real-Estate-168253820249510%2F&tabs=timeline&width=700&height=400&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="330" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 	  </section>
+	   
+	 
+     
     <!-- ################################################################################################ -->
     <div class="clear"></div>
   </div>

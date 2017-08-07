@@ -9,7 +9,7 @@ File: 960px Framework CSS
 */
 
 .one_half, .one_third, .two_third, .one_quarter, .two_quarter, .three_quarter, .one_fifth, .two_fifth, .three_fifth, .four_fifth{
-	display:inline-block; float:left; margin:0 0 0 2.08333%; list-style:none;
+	display:inline-block; float:left; margin:0 0 0 0; list-style:none;
 	}
 
 .first, .one_half:first-child, .one_third:first-child, .two_third:first-child, .one_quarter:first-child, .two_quarter:first-child, .three_quarter:first-child, .one_fifth:first-child, .two_fifth:first-child, .three_fifth:first-child, .four_fifth:first-child{
@@ -22,7 +22,7 @@ File: 960px Framework CSS
 
 /* Half Grid */
 
-.one_half{width:48.95833%;}
+.one_half{width:49%;}
 
 /* Third Grid */
 

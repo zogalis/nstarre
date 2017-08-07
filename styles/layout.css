@@ -53,7 +53,7 @@ address, article, aside, figcaption, figure, footer, header, nav, section{displa
 /* ----------------------------------------------Wrapper------------------------------------- */
 
 div.wrapper{}
-.row1 a, .row2 a, .row3 a, .row4 a, .row5 a{color:#FF9900; background-color:#FFFFFF;}
+.row1 a, .row2 a, .row3 a, .row4 a, .row5 a{color:#B00620; background-color:#FFFFFF;}
 .row1, .row1 a{color:#666666; background-color:#FFFFFF;}
 .row2, .row2 a{}
 .row3, .row3 a{}
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6{margin:0 0 8px 0; padding:0; font-size:1.4em; font-weight
 
 address{font-style:normal;}
 
-blockquote, q{display:block; padding:8px 10px; color:#979797; background-color:#ECECEC; font-style:italic; line-height:normal;}
+blockquote, q{display:block; padding:8px 10px; color:#000000; background-color:#ECECEC; font-style:italic; line-height:normal;}
 blockquote::before, q::before{content:'“ '; font-size:26px;}
 blockquote::after, q::after{content:' „'; font-size:26px; line-height:0;}
 
@@ -74,7 +74,7 @@ blockquote::after, q::after{content:' „'; font-size:26px; line-height:0;}
 
 /* ----------------------------------------------Header------------------------------------- */
 
-#header{padding:20px 0; border-bottom:1px solid #D6D6D6;}
+#header{padding:20px 0; border-bottom:1px solid #B00620;}
 #header #hgroup{display:block; float:left; width:460px; clear:right;}
 #header #hgroup h1, #header #hgroup h2{margin:0; font-weight:normal; text-transform:none;}
 #header #hgroup h1{font-size:2.5em;}
@@ -95,9 +95,9 @@ blockquote::after, q::after{content:' „'; font-size:26px; line-height:0;}
 #comments ul{margin:0 0 40px 0; padding:0; list-style:none;}
 #comments li.comment_odd, #comments li.comment_even{margin:0 0 10px 0; padding:15px; list-style:none;}
 #comments li.comment_odd{color:#666666; background-color:#F7F7F7;}
-#comments li.comment_odd a{color:#FF9900; background-color:#F7F7F7;}
+#comments li.comment_odd a{color:#B00620; background-color:#F7F7F7;}
 #comments li.comment_even{color:#666666; background-color:#E8E8E8;}
-#comments li.comment_even a{color:#FF9900; background-color:#E8E8E8;}
+#comments li.comment_even a{color:#B00620; background-color:#E8E8E8;}
 #comments article, #comments header{display:block; width:100%;}
 #comments figure{float:right; margin:0 0 10px 10px; padding:3px; border:1px solid #DEDACB; text-align:center;}
 #comments figure img{float:inherit;}
